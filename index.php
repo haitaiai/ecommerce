@@ -19,6 +19,17 @@
   </head>
   <body>
     
+    <div class="container">
+    	<div class="row">
+    		<a href="php/test.php" style="font-size: 40px; color: black;">lala</a>
+
+    		<form action="php/authentication.php" method="post">
+    			<input type="text" name="username" placeholder="Username or E-mail">
+    			<input type="password" name="password" placeholder="Password">
+    			<input type="submit" name="enter" value="Enter">
+    		</form>
+    	</div>
+    </div>
 
     <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
